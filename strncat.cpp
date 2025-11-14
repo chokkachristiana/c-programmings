@@ -2,15 +2,12 @@
 #include<string.h>
 int main()
  {
- char s1[]="abcd";
- char s2[]="abce";
-int res=strncmp(s1,s2,3);
- if(res==0)
- printf("two strings are equal");
- else if(res<0)
- printf("%s is smaller than %s",s1,s2);
- else
- printf("%s is larger than %s",s1,s2);
+ char s1[]="hello";
+ char s2[]="world";
+puts(s1);
+  strncat(s1,s2,s3);
+  puts(s1);
 return 0;
 }
+
 
